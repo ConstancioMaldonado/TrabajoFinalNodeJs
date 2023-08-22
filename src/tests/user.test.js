@@ -62,7 +62,6 @@ test("PUT -> 'URL_BASE/:id', should return status code 200 and res.body.firstNam
   //expect(res.body).toBeDefined()
   //expect(res.body.firstName).toBe(user.firstName)
 
-
 })
 
 
@@ -80,7 +79,6 @@ test("POST -> 'URL_BASE/login', should return status code 200 , res.body.email =
   //expect(res.body.user.email).toBe(user.email)
   //expect(res.body.token).toBeDefined()
 })
-
 
 test("POST -> 'URL_BASE/login', should return status code 401", async () => {
   const user = {
